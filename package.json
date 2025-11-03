@@ -3,10 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://tonpseudoantoinepmblin.github.io/IPMSenbeton",
+  "homepage": "https://antoinepmblin.github.io/IPMSenbeton/",
   "scripts": {
-    "dev": "node scripts/vite-wrapper.mjs",
-    "build": "node scripts/vite-wrapper.mjs build",
+    "dev": "vite",
+    "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"

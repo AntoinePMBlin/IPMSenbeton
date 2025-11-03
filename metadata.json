@@ -1,0 +1,5 @@
+{
+  "name": "Embolization IP manager",
+  "description": "An application to manage and report on patent portfolios, inspired by services like Clarivate. It allows editing patent families and titles, generating modular reports, and customizing the UI theme.",
+  "requestFramePermissions": []
+}

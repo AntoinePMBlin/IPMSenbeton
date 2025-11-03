@@ -5,8 +5,8 @@
   "type": "module",
   "homepage": "https://tonpseudoantoinepmblin.github.io/IPMSenbeton",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node scripts/vite-wrapper.mjs",
+    "build": "node scripts/vite-wrapper.mjs build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
